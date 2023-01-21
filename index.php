@@ -1,7 +1,4 @@
-<?php 
-    include "Includes/header.php";
-    include "Includes/footer.php"; 
-?> 
+<?php include "Includes/header.php"; ?> 
 
 <!DOCTYPE html>
 <html lang="en">
@@ -23,10 +20,11 @@
             </div>
             <img class="logoLarge" src="Assets/images/common/logoLarge.png" alt="Logo">
             <div>
-                <button class="btnMain" >Register</button>
-                <button class="btnMain" >Sign in</button>
+                <a href="View/register.php"><button class="btnMain" >Register</button></a>
+                <a href="View/login.php"><button class="btnMain" >Sign in</button></a>
             </div>
         </div>
     </div>
+    <?php include "Includes/footer.php"; ?>
 </body>
 </html>
