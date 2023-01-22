@@ -1,6 +1,16 @@
 @font-face {
     font-family: style-font;
-    src: url(Assets/Fonts/LucidaHandwritingStdRg.TTF);
+    src: url(../Assets/Fonts/LucidaHandwritingStdRg.TTF);
+}
+
+@font-face {
+    font-family: "barlowBold";
+    src: url(../Assets/Fonts/Barlow-Bold.ttf);
+}
+
+@font-face {
+    font-family: "barlowRegular";
+    src: url(../Assets/Fonts/Barlow-Regular.ttf);
 }
 
 .landingMain {
@@ -60,4 +70,19 @@
     border-color: #029ee4;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
     cursor: pointer;
+}
+
+/* --------------------about_page---------------------- */
+
+/* Path: groupProject1-personal\Css\style.css */
+
+.aboutContent {
+    text-align: center;
+}
+
+.aboutContent p {
+    font-family: "barlowRegular";
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: 80%;
 }

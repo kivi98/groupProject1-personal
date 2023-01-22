@@ -9,13 +9,14 @@
 
     @font-face {
         font-family: "barlowBold";
-        src: url(../Assets/Fonts/Barlow-Bold.ttf);
+        src: url(Assets/Fonts/Barlow-Bold.ttf);
     }
 
     @font-face {
-        font-family: "lucidaBlack";
-        src: url(../Assets/Fonts/Barlow-Regular.ttf);
+        font-family: "barlowRegular";
+        src: url(Assets/Fonts/Barlow-Regular.ttf);
     }
+    
     .footer {
         background-color: #111C43;
         margin: 0;
@@ -38,7 +39,7 @@
     }
 
     .footer ul {
-        font-family: "lucidaBlack";
+        font-family: "barlow";
         font-size: 1rem;
         color: black;
         margin-top: 10px;
@@ -118,8 +119,8 @@
         padding: 0;
     }
 
-    p {
-        font-family: "lucidaBlack";
+    .footerMiddle p {
+        font-family: "barlow";
         font-size: 1rem;
         color: #F3F4F5;
         margin-top: 10px;
