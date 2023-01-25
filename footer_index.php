@@ -26,7 +26,7 @@
         justify-content: space-between;
         border-top-right-radius: 50px;
         border-top-left-radius: 50px;
-
+        z-index: 1;
 
     }
 
@@ -119,6 +119,10 @@
         padding: 0;
     }
 
+    .footerRight li {
+        color: #F3F4F5;
+    }
+
     .footerMiddle p {
         font-family: "barlow";
         font-size: 1rem;
@@ -127,7 +131,7 @@
         margin-bottom: 10px;
     }
 
-    hr {
+    .footer hr {
         border: 1px solid #F3F4F5;
         height: 250px;
         text-align: center;
@@ -158,12 +162,10 @@
         </div>
         <hr>
         <div class="footerRight">
-            <h3>Follow Us</h3>
+            <h3>Contact</h3>
                 <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">LinkedIn</a></li>
+                    <li>Administrator - <a href="#">admin@gmail.com</a></li>
+                    <li>Hotline - <a href="#">+94114235688</a></li>
                 </ul>
         </div>
     </div>

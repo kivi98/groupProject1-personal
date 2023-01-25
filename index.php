@@ -15,7 +15,7 @@
             <img class="landingPagePhoto" src="Assets\images\common\landing-page-photo.jpg" alt="landing-page-photo">
         </div>
         <div class="landingRight">
-            <div class="rightContent">
+            <div class="IndexRightContent">
                 <h1>Welcome to <br> MOM CARE</h1>
             </div>
             <img class="logoLarge" src="Assets/images/common/logoLarge.png" alt="Logo">

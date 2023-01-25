@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nav</title>
+    <title>MomCare 2.0</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <style>
         body {
             margin: 0%;
@@ -71,9 +72,9 @@
     <nav class="topnav"> <!-- top navigation bar -- start -->
         <img class="logo-MomCare" src="../Assets/images/common/logo.png" alt="logo-MomCare">
         <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="View/about.php">About</a></li>
-            <li><a href="View/dashboard.php">Dashboard</a></li>
+            <li><a href="../index.php">Home</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="dashboardVog.php">Dashboard</a></li>
         </ul>
         <img class="profile_pic" src="../Assets/images/vog/doctor.png" alt="profile_pic">
     </nav> <!-- top navigation bar -- end -->
