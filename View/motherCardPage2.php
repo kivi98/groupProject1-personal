@@ -15,8 +15,8 @@
         </div>
         <div class="MotherCardButtons">
             <button class="PrintBtn">Print</button>
-            <button class="BackBtn">Back</button>
-            <button class="NextBtn">Next</button>
+            <a href="motherCardPage1.php"><button class="BackBtn">Back</button></a>
+            <a href="motherCardPage3.php"><button class="NextBtn">Next</button></a>
         </div>
         <div class="MotherCardOuterDiv">
             <div class="MotherCardMiddleDiv">
@@ -26,226 +26,309 @@
                         <div class="ClinicDetailsDetails">
                             <table class="MotherCardTables">
                                 <tr>
-                                    <td>Date of Visit</td>
+                                    <th>Date of Visit</th>
                                     <td>2022/2/4</td>
                                 </tr>
                                 <tr>
-                                    <td>POA</td>
+                                    <th>POA</th>
                                     <td>test</td>
                                 </tr>
                                 <tr>
-                                    
+                                    <th>Urine
+                                        <table class="innerTable">
+                                            <tr>
+                                                <td>Sugar</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Albumin</td>
+                                            </tr>
+                                        </table>
+                                    </th>
+                                    <td>Status<table class="innerTable">
+                                        <tr>
+                                            <td>Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Normal</td>
+                                        </tr>
+                                    </table></td>
+                                </tr>
+                                <tr>
+                                    <th>Pallor</th>
+                                    <td>test</td>
+                                </tr>
+                                <tr>
+                                    <th>Oedema<table class="innerTable">
+                                        <tr>
+                                            <td>Sugar</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Albumin</td>
+                                        </tr>
+                                    </table></th>
+                                    <td>Status<table class="innerTable">
+                                        <tr>
+                                            <td>Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Normal</td>
+                                        </tr>
+                                    </table></td>
+                                </tr>
+                                <tr>
+                                    <th>BP</th>
+                                    <td>Normal</td>
+                                </tr>
+                                <tr>
+                                    <th>Fundal height(cm)</th>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <th>Foetal lie</th>
+                                    <td>test</td>
+                                </tr>
+                                <tr>
+                                    <th>Presentation</th>
+                                    <td>Normal</td>
+                                </tr>
+                                <tr>
+                                    <th>Engagement of the presenting parent</th>
+                                    <td>Normal</td>
+                                </tr>
+                                <tr>
+                                    <th>FM</th>
+                                    <td>test</td>
+                                </tr>
+                                <tr>
+                                    <th>FHS</th>
+                                    <td>test</td>
+                                </tr>
+                                <tr>
+                                    <th>Iron</th>
+                                    <td>test</td>
+                                </tr>
+                                <tr>
+                                    <th>Folate</th>
+                                    <td>test</td>
+                                </tr>
+                                <tr>
+                                    <th>Calcium</th>
+                                    <td>test</td>
+                                </tr>
+                                <tr>
+                                    <th>Vitamin C</th>
+                                    <td>test</td>
+                                </tr>
+                                <tr>
+                                    <th>Food supplementation</th>
+                                    <td>test</td>
+                                </tr>
+                                <tr>
+                                    <th>Signature of the officer examined</th>
+                                    <td>test</td>
+                                </tr>
+                                <tr>
+                                    <th>Designation</th>
+                                    <td>test</td>
                                 </tr>
                             </table>
                         </div>
                     </div>
-                    <div class="TwoColumnSection"> <!--when a section have two tables, use this class-->
-                        <div class="TwoColumnSec1">
-                            <div class="PersonalInfomationTitle">
-                                <h3>Personal Information</h3>
+                    <div class="ThreeColumnSection">
+                        <div class="ThreeColumnSec1">
+                            <div class="Auscultation&MentalHealth_Title">
+                                <h3>Auscultation & Mental Health</h3>
                             </div>
-                            <div class="PersonalInformation">
+                            <div class="Auscultation&MentalHealth">
                                 <table class="MotherCardTables">
                                     <tr>
-                                        <td></td>
-                                        <td>Wife</td>
-                                        <td>Husband</td>
+                                        <th class="emptyTableCell"></th>
+                                        <th>Auscultation</th>
+                                        <th>Mental health</th>
                                     </tr>
                                     <tr>
-                                        <td>Age:</td>
-                                        <td>27</td>
-                                        <td>30</td>
+                                        <th>T1</th>
+                                        <td>test</td>
+                                        <td>test</td>
                                     </tr>
                                     <tr>
-                                        <td>Highest level of education:</td>
-                                        <td>Degree</td>
-                                        <td>Degree</td>
+                                        <th>T2</th>
+                                        <td>test</td>
+                                        <td>test</td>
                                     </tr>
                                     <tr>
-                                        <td>Occupation</td>
-                                        <td>Teacher</td>
-                                        <td>Teacher</td>
+                                        <th>T3</th>
+                                        <td>test</td>
+                                        <td>test</td>
                                     </tr>
                                 </table>
                             </div>
                         </div>
-                        <div class="TwoColumnSec2">
-                            <div class="PersonalInfomationTitle">
-                                <h3>Family History</h3>
+                        <div class="ThreeColumnSec2">
+                            <div class="DentalCare_Title">
+                                <h3>Dental Care</h3>
                             </div>
-                            <div class="PersonalInformation">
+                            <div class="DentalCare">
                                 <table class="MotherCardTables">
                                     <tr>
-                                        <td>Diabetes mellitus:</td>
-                                        <td>Negative</td>
+                                        <th>Referred date</th>
+                                        <td>2022/02/15</td>
                                     </tr>
                                     <tr>
-                                        <td>Hypertension:</td>
-                                        <td>Negative</td>
+                                        <th>Date of examination</th>
+                                        <td>2022/02/15</td>
                                     </tr>
                                     <tr>
-                                        <td>Haematological diseases:</td>
-                                        <td>Negative</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Twin / multiple pregnancies:</td>
-                                        <td>Negative</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Any other (specify):</td>
-                                        <td>Nothing</td>
+                                        <th>Treatment</th>
+                                        <td>No treatment needed</td>
                                     </tr>
                                 </table>
+                            </div>
+                        </div>
+                        <div class="ThreeColumnSec3">
+                            <div>
+                                <div class="RespiratorySystem_Title">
+                                    <h3>Respiratory System</h3>
+                                </div>
+                                <div class="RespiratorySystem">
+                                    <table class="MotherCardTables">
+                                        <tr><td>No issue</td></tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="BreastExamination_Title">
+                                    <h3>Breast examination</h3>
+                                </div>
+                                <div class="BreastExamination">
+                                    <table class="MotherCardTables">
+                                        <tr><td>No issue</td></tr>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="TwoColumnSection">
                         <div class="TwoColumnSec1">
-                            <div class="MedicalHistoryTitle">
-                                <h3>Medical / Surgical History</h3>
+                            <div class="Investigations_Title">
+                                <h3>Investigations</h3>
                             </div>
-                            <div class="MedicalHistory">
+                            <div class="Investigations">
                                 <table class="MotherCardTables">
                                     <tr>
-                                        <td>Diabetes:</td>
-                                        <td>Negative</td>
-                                        <td>Haematologies:</td>
-                                        <td>Negative</td>
+                                        <th></th>
+                                        <th>POA</th>
+                                        <th>Result</th>
                                     </tr>
                                     <tr>
-                                        <td>Hypertension:</td>
-                                        <td>Negative</td>
-                                        <td>Thyroid diseases:</td>
-                                        <td>Negative</td>
+                                        <th>Blood Sugar</th>
+                                        <td>test</td>
+                                        <td>normal</td>
                                     </tr>
                                     <tr>
-                                        <td>Cardiac diseases:</td>
-                                        <td>Negative</td>
-                                        <td>Bronchial asthma:</td>
-                                        <td>Negative</td>
+                                        <th>Hemoglobin</th>
+                                        <td>test</td>
+                                        <td>normal</td>
                                     </tr>
                                     <tr>
-                                        <td>Renal diseases:</td>
-                                        <td>Negative</td>
-                                        <td>Tuberculosis:</td>
-                                        <td>Negative</td>
+                                        <th>Other Investigation</th>
+                                        <td colspan="2">test</td>
                                     </tr>
                                     <tr>
-                                        <td>Hepatic diseases:</td>
-                                        <td>Nothing</td>
-                                        <td>Previous DVT:</td>
-                                        <td>Negative</td>
+                                        <th>Antihelminthic drugs</th>
+                                        <td colspan="2">test</td>
                                     </tr>
                                     <tr>
-                                        <td>Psychiatric illnesses:</td>
-                                        <td>Nothing</td>
-                                        <td>Surgeries other than LSCS:</td>
-                                        <td>Negative</td>
+                                        <th>Date of issuing lick count chart</th>
+                                        <td colspan="2">test</td>
                                     </tr>
                                     <tr>
-                                        <td>Epilepsy:</td>
-                                        <td>Nothing</td>
-                                        <td>Other (specify):</td>
-                                        <td>Negative</td>
+                                        <th>Date of taking blood sample for HIV</th>
+                                        <td colspan="2">2022/2/5</td>
                                     </tr>
                                     <tr>
-                                        <td>Malignancies:</td>
-                                        <td>Nothing</td>
-                                        <td>Social Z score:</td>
-                                        <td>Negative</td>
+                                        <th>Date of result informed to mother</th>
+                                        <td colspan="2">2022/2/20</td>
                                     </tr>
                                 </table>
                             </div>
                         </div>
                         <div class="TwoColumnSec2">
-                            <div class="ObstericHistoryTitle">
-                                <h3>Present Obsteric History</h3>
+                            <div>
+                                <div class="SyphilisScreening_Title">
+                                    <h3>Syphilis screeningtem</h3>
+                                </div>
+                                <div class="SyphilisScreening">
+                                    <table class="MotherCardTables">
+                                        <tr>
+                                            <th>POA at blood sampling</th>
+                                            <td>test</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Date of blood sampling</th>
+                                            <td>test</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Date of result received</th>
+                                            <td>test</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Result</th>
+                                            <td>R</td>
+                                        </tr>
+                                        <tr>
+                                            <th>If (R) date of referral</th>
+                                            <td>test</td>
+                                        </tr>
+                                    </table>
+                                </div>
                             </div>
-                            <div class="ObstericHistory">
-                                <table class="MotherCardTables">
-                                    <tr>
-                                        <td>Gravidity:</td>
-                                        <td>Negative</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Age of the youngest child::</td>
-                                        <td>Negative</td>
-                                    </tr>
-                                    <tr>
-                                        <td>LRMP:</td>
-                                        <td>Negative</td>
-                                    </tr>
-                                    <tr>
-                                        <td>EED:</td>
-                                        <td>Negative</td>
-                                    </tr>
-                                    <tr>
-                                        <td>US corrected EED (To be filled by VOG/MO):</td>
-                                        <td>Nothing</td>
-                                    </tr>
-                                    <tr>
-                                        <td>POA at dating scan: :</td>
-                                        <td>Nothing</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Date of quickening:</td>
-                                        <td>Nothing</td>
-                                    </tr>
-                                    <tr>
-                                        <td>POA at registration: :</td>
-                                        <td>Nothing</td>
-                                    </tr>
-                                </table>
+                            <div>
+                                <div class="TetanusToxoidImmunization_Title">
+                                    <h3>Tetanus Toxoid Immunization</h3>
+                                </div>
+                                <div class="TetanusToxoidImmunization">
+                                    <table class="MotherCardTables">
+                                        <tr>
+                                            <th>Dose</th>
+                                            <td>1</td>
+                                            <td>1</td>
+                                            <td>1</td>
+                                            <td>1</td>
+                                            <td>1</td>
+                                            <td>1</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Date</th>
+                                            <td>2022/02/03</td>
+                                            <td>2022/02/03</td>
+                                            <td>2022/02/03</td>
+                                            <td>2022/02/03</td>
+                                            <td>2022/02/03</td>
+                                            <td>2022/02/03</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Batch no.</th>
+                                            <td>2022/02/03</td>
+                                            <td>2022/02/03</td>
+                                            <td>2022/02/03</td>
+                                            <td>2022/02/03</td>
+                                            <td>2022/02/03</td>
+                                            <td>2022/02/03</td>
+                                        </tr>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="OneColumnSection"> <!--when a section has only one table, use this class-->
-                        <div class="PregnancyHistoryTitle">
-                            <h3>Pregnancy History</h3>
-                        </div>
-                        <div class="PregnancyHistory">
-                            <table class="MotherCardTables">
-                                <tr>
-                                    <th>Pregnancy</th>
-                                    <th>Antenatal complications</th>
-                                    <th>Place & mode of delivery</th>
-                                    <th>Outcome</th>
-                                    <th>Birth weight</th>
-                                    <th>Postal complications(specify)</th>
-                                    <th>Sex</th>
-                                    <th>Age</th>
-                                </tr>
-                                <tr>
-                                    <td>Normal</td>
-                                    <td>Negative</td>
-                                    <td>Colombo 15</td>
-                                    <td>Normal</td>
-                                    <td>Birth weight</td>
-                                    <td>Negative</td>
-                                    <td>Male</td>
-                                    <td>7</td>
-                                </tr>
-                                <tr>
-                                    <td>Normal</td>
-                                    <td>Negative</td>
-                                    <td>Colombo 15</td>
-                                    <td>Normal</td>
-                                    <td>Birth weight</td>
-                                    <td>Negative</td>
-                                    <td>Male</td>
-                                    <td>5</td>
-                                </tr>
-                                <tr>
-                                    <td>Normal</td>
-                                    <td>Negative</td>
-                                    <td>Colombo 15</td>
-                                    <td>Normal</td>
-                                    <td>Birth weight</td>
-                                    <td>Negative</td>
-                                    <td>Female</td>
-                                    <td>3</td>
-                                </tr>
-                            </table>
+                    <div class="OneColumnSection">
+                        <div class="BP_Chart">
+                            <div class="BP_Chart_Title">
+                                <h3>BP Chart</h3>
+                            </div>
+                            <div class="BP_Chart_Image">
+                                <img src="../Images/Chart.png" alt="BP Chart">
+                            </div>
                         </div>
                     </div>
                 </div>

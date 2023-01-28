@@ -506,6 +506,8 @@
 
 .MotherCardTables th {
     padding-left: 10px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
 }
 
 .MotherCardButtons {
@@ -545,4 +547,52 @@
 
 .NextBtn:hover {
     background-color: #41c3ff;
+}
+
+.BackBtn {
+    width: 150px;
+    height: 30px;
+    border-style: none;
+    border-radius: 15px;
+    color: #ffffff;
+    background-color: #029EE4;
+    cursor: pointer;
+}
+
+.BackBtn:hover {
+    background-color: #41c3ff;
+}
+
+.innerTable {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.innerTable td {
+    background-color: #ffffff;
+}
+
+.ThreeColumnSection {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    column-gap: 20px;
+}
+
+.ThreeColumnSec1 {
+    width: 33%;
+}
+
+.ThreeColumnSec2 {
+    width: 33%;
+}
+
+.ThreeColumnSec3 {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.emptyTableCell {
+    background-color: #ffffff;
 }
