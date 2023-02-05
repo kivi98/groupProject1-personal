@@ -1,4 +1,4 @@
-<?php include "header_index.php"; ?> 
+<?php include "Includes/header_index.php"; ?> 
 
 <!DOCTYPE html>
 <html lang="en">
@@ -25,6 +25,6 @@
             </div>
         </div>
     </div>
-    <?php include "footer_index.php"; ?>
+    <?php include "Include/footer_index.php"; ?>
 </body>
 </html>
